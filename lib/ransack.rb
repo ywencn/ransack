@@ -23,6 +23,5 @@ require 'ransack/search'
 require 'ransack/ransacker'
 require 'ransack/adapters/active_record' if defined?(::ActiveRecord::Base)
 require 'ransack/helpers'
-require 'action_controller'
-
-ActionController::Base.helper Ransack::Helpers::FormHelper
+#require 'action_controller'
+#ActionController::Base.helper Ransack::Helpers::FormHelper
